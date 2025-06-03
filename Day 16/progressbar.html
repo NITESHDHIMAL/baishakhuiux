@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .progress_bar{
+            background-color: gray;
+            border-radius: 1rem;
+            height: 2rem;
+        }
+        .progress{
+            border-radius: 1rem;
+            width: 30%;
+            height: 100%;
+            background-color: yellow;
+            text-align: center;
+            align-content: center;
+        
+            animation-name: progressBar;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+
+
+        }
+
+        @keyframes progressBar {
+            0% {
+                width: 0%;
+            }
+            25% {
+                width: 25%;
+                background-color: aqua;
+            }
+            50% {
+                width: 50%;
+                background-color: red;
+            }
+            75% {
+                width: 75%;
+                background-color: brown;
+            }
+            100% {
+                width: 100%;
+                background-color: green;
+            }
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+     <div class="progress_bar">
+        <div class="progress">30%</div>
+     </div> 
+</body>
+</html>

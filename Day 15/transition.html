@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Transition</title>
+
+    <!-- font awesome cdn  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .box {
+            height: 150px;
+            width: 150px;
+            background-color: lightcoral;
+        
+            /* transition: ; */
+
+            transition-property: all;
+            /* transition-property: height; */ 
+            transition-duration: 2s;
+            /* transition-delay: 2s; */
+            /* transition-timing-function: ease; */
+            transition-timing-function: cubic-bezier(1, 0.27, 0, 0.56);
+
+
+        }
+
+        .box:hover {
+            background-color: aqua;
+            cursor: pointer; 
+            height: 250px;
+        }
+
+        button {
+            background-color: rgb(211, 209, 209);
+            padding: 10px 1rem;
+            border-radius: 1rem;
+            border: none;
+            margin-top: 2rem;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        i {
+            transition: all 1s ;
+        }
+         i:hover {
+            margin-left: 1rem;
+        }
+
+
+
+        
+
+
+
+
+
+    </style>
+</head>
+<body> 
+    <div class="box"></div> 
+
+    <button>Learn More <i class="fa-solid fa-right-long"></i> </button>
+</body>
+</html>
