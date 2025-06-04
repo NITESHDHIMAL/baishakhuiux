@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .box{
+            height: 150px;
+            width: 150px;
+            background-color: green;
+        }
+        .minibox{
+            height: 150px;
+            width: 150px;
+            background-color: lightcoral;
+            transition: all 2s;
+        }
+        .minibox:hover{
+            cursor: pointer;
+            /* transform: scale(2); */
+            /* transform: scalex(2); */
+            /* transform: scaley(2); */
+
+            /* transform: skew(45deg); */
+            /* transform: skewx(45deg); */
+            /* transform: skewy(45deg); */
+
+            /* transform: translate(x , y); */
+            /* transform: translate(150px,150px); */
+            /* transform: translatex(150px); */
+            transform: translatey(150px);
+        }
+    </style>
+</head>
+<body> 
+    <div class="box">
+        <div class="minibox"></div>
+    </div> 
+</body>
+</html>
