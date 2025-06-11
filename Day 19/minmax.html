@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        .box{
+            background-color: green;
+            height: 100vh;
+        }
+
+
+        /* orientation types: 1.portrait 2. landscape */
+
+        /* portrait => phone =>  height
+        landscape => laptop => width */
+
+
+        /* @media screen and ( min-width: 640px ) { */
+        /* @media screen and ( max-width: 640px ) { */
+        /* @media screen and ( orientation: portrait ) { */
+        @media screen and ( orientation: landscape ) {
+            .box{
+                background-color: aquamarine;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

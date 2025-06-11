@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font  -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        .courses{
+            /* display: flex;
+            flex-wrap: wrap; */ 
+            display: grid;
+            grid-template-columns: repeat(4,200px);
+            justify-content: center;
+            gap: 1rem;
+        }
+        
+        @media screen and ( max-width: 768px ) {
+            .courses{
+                grid-template-columns: repeat(2,1fr);
+            }
+            
+        }
+
+        .mini_course {
+            border: 1px solid rgb(206, 203, 203);
+            padding: 1rem;
+            border-radius: 1rem;
+            /* width: 190px; */
+            /* width: auto; */
+        }
+
+        .mini_course:hover {
+            border: 1px solid green;
+        }
+
+        h4 {
+            color: green;
+        }
+
+        button {
+            background-color: rgb(219, 213, 213);
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="courses">
+        <div class="mini_course">
+            <img src="https://www.mindrisers.com.np/static/Images/courses/Mernstack.webp" alt="courselogo" width="150">
+            <h4>MERN Stack Training in Nepal</h4>
+            <span>3 months</span> <br> 
+            <button>Learn More -></button>
+        </div>
+        <div class="mini_course">
+            <img src="https://www.mindrisers.com.np/static/Images/courses/Mernstack.webp" alt="courselogo" width="150">
+            <h4>MERN Stack Training in Nepal</h4>
+            <span>3 months</span> <br> 
+            <button>Learn More -></button>
+        </div>
+        <div class="mini_course">
+            <img src="https://www.mindrisers.com.np/static/Images/courses/Mernstack.webp" alt="courselogo" width="150">
+            <h4>MERN Stack Training in Nepal</h4>
+            <span>3 months</span> <br> 
+            <button>Learn More -></button>
+        </div>
+        <div class="mini_course">
+            <img src="https://www.mindrisers.com.np/static/Images/courses/Mernstack.webp" alt="courselogo" width="150">
+            <h4>MERN Stack Training in Nepal</h4>
+            <span>3 months</span> <br> 
+            <button>Learn More -></button>
+        </div>
+        <div class="mini_course">
+            <img src="https://www.mindrisers.com.np/static/Images/courses/Mernstack.webp" alt="courselogo" width="150">
+            <h4>MERN Stack Training in Nepal</h4>
+            <span>3 months</span> <br> 
+            <button>Learn More -></button>
+        </div>
+        <div class="mini_course">
+            <img src="https://www.mindrisers.com.np/static/Images/courses/Mernstack.webp" alt="courselogo" width="150">
+            <h4>MERN Stack Training in Nepal</h4>
+            <span>3 months</span> <br> 
+            <button>Learn More -></button>
+        </div>
+        <div class="mini_course">
+            <img src="https://www.mindrisers.com.np/static/Images/courses/Mernstack.webp" alt="courselogo" width="150">
+            <h4>MERN Stack Training in Nepal</h4>
+            <span>3 months</span> <br> 
+            <button>Learn More -></button>
+        </div>
+        <div class="mini_course">
+            <img src="https://www.mindrisers.com.np/static/Images/courses/Mernstack.webp" alt="courselogo" width="150">
+            <h4>MERN Stack Training in Nepal</h4>
+            <span>3 months</span> <br> 
+            <button>Learn More -></button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
